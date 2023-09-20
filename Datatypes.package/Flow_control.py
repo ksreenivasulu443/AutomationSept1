@@ -13,26 +13,26 @@
 #
 # print("This is out if-eli-else stmt")
 
-
-layer = input("Enter the layer")
-#bronze, silver, Gold --
-
-if layer.strip() == 'Raw':
-    print('count')
-    print('duplicate')
-    print('columnvalue')
-elif layer == "Raw":
-    print('count1')
-    print('columnvalue1')
-elif layer == 'silver':
-    print('count')
-    print('duplicate')
-    print('columnvalue')
-    print('transformation validation, scd')
-elif layer == 'gold':
-    pass
-
-print("outside layer exe")
+#
+# layer = input("Enter the layer")
+# #bronze, silver, Gold --
+#
+# if layer.strip() == 'Raw':
+#     print('count')
+#     print('duplicate')
+#     print('columnvalue')
+# elif layer == "Raw":
+#     print('count1')
+#     print('columnvalue1')
+# elif layer == 'silver':
+#     print('count')
+#     print('duplicate')
+#     print('columnvalue')
+#     print('transformation validation, scd')
+# elif layer == 'gold':
+#     pass
+#
+# print("outside layer exe")
 
 
 
@@ -61,4 +61,8 @@ print("outside layer exe")
 #
 # if 0.8+0.1 == 0.9:
 #     print("True")
+
+
+
+
 
