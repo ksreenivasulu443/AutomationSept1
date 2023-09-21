@@ -28,5 +28,5 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Execute python file
-      run: python test.validation.py
+      run: python test/validation.py
       
