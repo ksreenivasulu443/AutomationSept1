@@ -4,4 +4,4 @@ from sys import argv
 
 print(argv)
 
-print(argv[1])
+print(argv[0])
