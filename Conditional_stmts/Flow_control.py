@@ -59,8 +59,8 @@
 #
 # dodo(b="whale")
 #
-# if 0.8+0.1 == 0.9:
-#     print("True")
+if 0.8+0.1 == 0.9:
+    print("True")
 
 
 
