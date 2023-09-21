@@ -71,11 +71,41 @@
 #     print(x)
 #     x = x+1
 
-x=10
+# for i in range(1,10):
+#     if i == 5:
+#          break
+#     print(i)
 
-while x>0:
-    print(x)
-    x=x-1
+# for i in range(1,10):
+#     if i == 5 or i==8 :
+#          continue
+#     print(i)
+
+# for i in range(1,10):
+#     if i == 5:
+#          print("Hi this is 5 th value")
+#     else:
+#         pass
+#         #print("hello this is not 5 ")
+
+def count_val(source,target):
+    #pass
+    if source == target:
+        print("matching")
+        add = source+target
+        print("add two value",add)
+    else:
+        print(" not matched")
+
+    return source+target
+
+
+sum = count_val(10,10)
+print("return output sum" ,sum)
+
+
+
+
 
 
 
