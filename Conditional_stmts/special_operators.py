@@ -55,9 +55,10 @@
 # print(3 in ls)
 # print('1' in ls)
 
-# str= 'Hello Sreeni, Good morning '
-# #
-# print('S' in str)
+str= 'Hello Sreeni, Good morning '
+#
+print('S' in str)
+print('i' in str)
 # print('K' in str)
 # print('Bad' in str)
 # print('morning' in str)
