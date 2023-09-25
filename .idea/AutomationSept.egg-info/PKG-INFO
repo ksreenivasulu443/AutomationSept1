@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: AutomationSept
+Version: 0.1
+Summary: A sample Python package
+Author: Sreenivasulu
+Author-email: kattubadi426@gmail.com.com
+Requires-Dist: numpy
+Requires-Dist: pandas

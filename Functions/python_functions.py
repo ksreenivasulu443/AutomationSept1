@@ -1,14 +1,14 @@
-# def add(a,b):
-#     print("sum of two number is :", a+b)
-#     c = a+b
-#     print("the c value is ", c)
-#     return c
-#
-# c= add(4,5)
-#
-# print(c)
-#
-# c= add( a= 4, b=5)
+def add(a,b):
+    print("sum of two number is :", a+b)
+    c = a+b
+    print("the c value is ", c)
+    return c
+
+c= add(4,5)
+
+print(c)
+
+c= add( a= 4, b=5)
 
 
 # def factorial(num):

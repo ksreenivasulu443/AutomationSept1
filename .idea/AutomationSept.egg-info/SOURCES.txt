@@ -1,0 +1,5 @@
+AutomationSept.egg-info/PKG-INFO
+AutomationSept.egg-info/SOURCES.txt
+AutomationSept.egg-info/dependency_links.txt
+AutomationSept.egg-info/requires.txt
+AutomationSept.egg-info/top_level.txt

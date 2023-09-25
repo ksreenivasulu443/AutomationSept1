@@ -59,10 +59,23 @@
 #
 # dodo(b="whale")
 #
-if 0.8+0.1 == 0.9:
-    print("True")
+# if 0.8+0.1 == 0.9:
+#     print("True")
 
+import math
+from math import sqrt
 
+# import pandas as pd
+#
+# df = pd.read_csv(r"/Users/harish/PycharmProjects/Automation/Input/IPL Ball-by-Ball 2008-2020.csv")
+#
+# df.head(5)
+#
+# print(df.shape)
+
+s = lambda a,b : a if a>b else b
+
+print(s(a=8,b=5))
 
 
 
