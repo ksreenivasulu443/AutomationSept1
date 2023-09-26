@@ -1,14 +1,106 @@
+
+
+
+# def function_name(arg1, arg2,....): # args optional
+#     #line1
+#     #line2
+#    return val1, val2 # optional
+#
+
+#Hello + name + good morning
+
+# def hello_name(name):
+#     print("hello world")
+#
+#
+# hello_name(name = 'Sreeniiiii')
+# print("hello " + 'Sreni' + " good morning")
+# print("hello " + 'Sreni2' + " good morning")
+# print("hello " + 'Sreni3' + " good morning")
+# print("hello " + 'Sreni4' + " good morning")
+
+
+
+# def hello_name(name):
+#     print("hello " + name + " good morning")
+#     if name == 'GHJ':
+#         print( "how are you?")
+#
+# hello_name(name = 'Sreeni')
+# hello_name(name = 'Hari')
+# hello_name(name = 'Raj')
+# hello_name(name = 'Chndan')
+# hello_name(name = 'GHJ')
+
+
+import pandas as pd
+def math_op(a,b):
+    sub = a-b
+    add = a+b
+    return add, sub
+
+l1, l2 = math_op(10,40) # public variable
+print(l1, l2)
+
+
+
+
+def add(a,b,l1):
+    #sum = a+b
+    return a*b,l1,l2
+
+out2= add(10,2,l1)
+print("the out2",out2)
+
+
 def add(a,b):
-    print("sum of two number is :", a+b)
-    c = a+b
-    print("the c value is ", c)
-    return c
+    sum = a+b
+    print(sum)
 
-c= add(4,5)
 
-print(c)
+l1 = math_op(10,20)
+print("the l1 value is " ,l1)
+print(l2)
+print("sum is ",sum)
+print(mul)
+print(div)
+tup = math_op(8,40)
+print(tup)
 
-c= add( a= 4, b=5)
+# for i in tup:
+#     print(i)
+
+
+# def add(a,b):
+#     print("sum of two number is :", a+b)
+#     c = a+b
+#     print("the c value is ", c)
+#     return c
+#
+# c= add(4,5)
+#
+# print(c)
+#
+# c= add( a= 4, b=5)
+
+# class test:
+#     def __init__(self, a, b):
+#         self.a = a
+#         self.b = b
+#         print("Initilizer")
+#
+#     def add(self):
+#         print(self.a + self.b)
+#
+#     def sub(self):
+#         print(self.a - self.b)
+#
+#
+# obj = test(a=10, b=20)
+# print(obj.add())
+# print(obj.sub())
+
+
 
 
 # def factorial(num):
@@ -88,7 +180,7 @@ c= add( a= 4, b=5)
 
 
 # Global variable
-#Local variable
+# Local variable
 
 # a=10
 # def add():
@@ -129,13 +221,13 @@ c= add( a= 4, b=5)
 # a= fact(3)
 # print(a)
 
-import datetime
-def mygen():
-    return datetime.datetime.utcnow().strftime("%Y%m%d%-H%-M%S")
-
-g = mygen()
-
-print(mygen())
-
-
-
+# import datetime
+#
+#
+# def mygen():
+#     return datetime.datetime.utcnow().strftime("%Y%m%d%-H%-M%S")
+#
+#
+# g = mygen()
+#
+# print(mygen())
