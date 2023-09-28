@@ -1,0 +1,12 @@
+2023-09-27 20:23:37,323:DEBUG:a values is 25
+2023-09-27 20:23:37,324:DEBUG:Harmless debug Message
+2023-09-27 20:23:37,324:INFO:Just an information
+2023-09-27 20:23:37,324:WARNING:Its a Warning
+2023-09-27 20:23:37,324:ERROR:Did you try to divide by zero
+2023-09-27 20:23:37,324:CRITICAL:Internet is down
+2023-09-27 20:24:03,123:DEBUG:a values is 25
+2023-09-27 20:24:03,123:DEBUG:Harmless debug Message
+2023-09-27 20:24:03,123:INFO:Just an information
+2023-09-27 20:24:03,123:WARNING:Its a Warning
+2023-09-27 20:24:03,123:ERROR:Did you try to divide by zero
+2023-09-27 20:24:03,123:CRITICAL:Internet is down

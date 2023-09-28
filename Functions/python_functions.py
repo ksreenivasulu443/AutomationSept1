@@ -32,40 +32,40 @@
 # hello_name(name = 'Chndan')
 # hello_name(name = 'GHJ')
 
-
-import pandas as pd
-def math_op(a,b):
-    sub = a-b
-    add = a+b
-    return add, sub
-
-l1, l2 = math_op(10,40) # public variable
-print(l1, l2)
-
-
+# x="test"
+# import pandas as pd
+# def math_op(a,b):
+#     sub = a-b
+#     add = a+b
+#     return add, sub, x
+#
+# l1, l2,y = math_op(10,40) # public variable
+# print(l1, l2,y)
 
 
-def add(a,b,l1):
-    #sum = a+b
-    return a*b,l1,l2
 
-out2= add(10,2,l1)
-print("the out2",out2)
-
-
-def add(a,b):
-    sum = a+b
-    print(sum)
-
-
-l1 = math_op(10,20)
-print("the l1 value is " ,l1)
-print(l2)
-print("sum is ",sum)
-print(mul)
-print(div)
-tup = math_op(8,40)
-print(tup)
+#
+# def add(a,b,l1):
+#     #sum = a+b
+#     return a*b,l1,l2
+#
+# out2= add(10,2,l1)
+# print("the out2",out2)
+#
+#
+# def add(a,b):
+#     sum = a+b
+#     print(sum)
+#
+#
+# l1 = math_op(10,20)
+# print("the l1 value is " ,l1)
+# print(l2)
+# print("sum is ",sum)
+# print(mul)
+# print(div)
+# tup = math_op(8,40)
+# print(tup)
 
 # for i in tup:
 #     print(i)
@@ -134,8 +134,11 @@ print(tup)
 # def sum(a):
 #     print("one argument")
 #
-# def sum(a,b):
+# def sum(a,b=10):
 #     print("two arguments")
+#
+# sum(20,10)
+# sum(10,a=20)
 
 # def sum(*k):
 #     result=0
@@ -145,9 +148,9 @@ print(tup)
 #
 # sum1 = sum(10)
 # print(sum1)
-# sum2= sum(10,20)
+# sum2= sum(1,2,3,4,5,6)
 # print(sum2)
-#
+
 # sum3 = sum(1,2,3,4,5)
 # print(sum3
 # #
@@ -182,23 +185,26 @@ print(tup)
 # Global variable
 # Local variable
 
-# a=10
-# def add():
-#     global a,b
-#     a,b=10,40
-#     print(a)
-#
-# sum= add()
-# print(sum)
-# print(a)
-#
+
+def add():
+    global a,b
+    a,b=10,40
+    global c
+    c=40
+    print(a)
+
+sum= add()
+print(sum)
+print("a value",a)
+print("c value is ",c)
+
 # def printc():
 #     c=40
 #     print("princ fun" , a)
 #     print(globals())
 #
 # print(printc())
-
+print(globals())
 
 # def fact(n):
 #     result=1
@@ -231,3 +237,55 @@ print(tup)
 # g = mygen()
 #
 # print(mygen())
+
+# cust2 = cust_info(1,'sreeni',45,doc='1234')
+# print(cust2)
+
+
+def add(a,b):
+    return a+b
+
+sum=add(4,5)
+print(sum)
+def add(a,b,c):
+    return a+b+c
+
+sum2 = add(4,5,6)
+print(sum2)
+
+def add(*k):
+    result=0
+    for i in k:
+        result +=i
+    return result
+sum3 = add(3,4,5,6)
+print(sum3)
+
+
+def cust_info(cust_id,name, age):
+    dict = {}
+    print(cust_id, name,age)
+    dict['cust_id'] = cust_id
+    dict['name'] = name
+    dict['age'] = age
+    return dict
+
+cust1 = cust_info(1,'sreeni',45)
+print(cust1)
+
+# cust2 = cust_info(1,'sreeni',45,doc='1234')
+# print(cust2)
+
+def cust_info2(**kwargs):
+    print(kwargs)
+    for i,j in kwargs.items():
+        pass#print(i,j)
+
+cust2 = cust_info2(id=1,name='sreeni',age=45,dob='1234',email='test')
+print(cust2)
+
+s = lambda a,b : a+b
+print(s(1,2))
+
+
+
