@@ -1,0 +1,13 @@
+2023-09-28 08:52:14,875DEBUGthis is debug
+2023-09-28 08:52:14,875INFO this is information that site is working fine
+2023-09-28 08:52:14,876WARNINGthis is warning
+2023-09-28 08:52:14,879ERRORthis is error
+2023-09-28 08:52:14,882CRITICALthis is critical
+2023-09-28 08:52:14,885WARNING server is getting i/p to restart
+2023-09-28 08:52:14,889INFO server restarted
+2023-09-28 08:52:14,889DEBUGthis is second debug
+2023-09-28 08:52:14,889CRITICALthis 3rd critical
+2023-09-28 08:52:14,889DEBUGthis is second debug
+2023-09-28 08:52:14,889DEBUGthis is second debug
+2023-09-28 08:52:14,889DEBUGthis is second debug
+2023-09-28 08:52:14,889DEBUGthis is second debug
